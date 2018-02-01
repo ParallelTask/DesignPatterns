@@ -10,10 +10,10 @@ namespace ChainOfResponsibilityPattern
     {
         static void Main(string[] args)
         {
-            // Run the observable pattern output
+            // Run the observable pattern
             // Observable.Program.Run();
 
-            // Run the chain of responsibility output
+            // Run the chain of responsibility pattern
             // ChainOfResponsibility.Program.Run();
 
             // Run the publish subscribe pattern
@@ -21,6 +21,9 @@ namespace ChainOfResponsibilityPattern
 
             // Run the selected observables pattern
             // SelectedObservable.Program.Run();
+
+            // Run the fluent interface pattern
+            // FluentInterface.Program.Run();
 
             Console.ReadLine();
         }

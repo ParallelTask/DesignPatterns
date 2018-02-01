@@ -8,8 +8,11 @@ namespace ChainOfResponsibilityPattern.FluentInterface
 {
     public interface ICustomer
     {
-        string FirstName { get; set; }
-        string LastName { get; set; }
-        int Age { get; set; }
+        ICustomer FirstName(string name);
+        ICustomer LastName(string name);
+        ICustomer Age(int age);
+        string FirstName();
+        string LastName();
+        int Age();
     }
 }
