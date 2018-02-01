@@ -42,11 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builder\Program.cs" />
     <Compile Include="ChainOfResponsibility\IReceiver.cs" />
     <Compile Include="ChainOfResponsibility\Program.cs" />
     <Compile Include="ChainOfResponsibility\ReceiverThree.cs" />
     <Compile Include="ChainOfResponsibility\ReceiverTwo.cs" />
     <Compile Include="ChainOfResponsibility\ReceiverOne.cs" />
+    <Compile Include="FluentInterface\Context.cs" />
+    <Compile Include="FluentInterface\ICustomer.cs" />
+    <Compile Include="FluentInterface\Customer.cs" />
+    <Compile Include="FluentInterface\IContext.cs" />
     <Compile Include="Observable\IObserver.cs" />
     <Compile Include="Observable\ISubject.cs" />
     <Compile Include="Observable\Program.cs" />
