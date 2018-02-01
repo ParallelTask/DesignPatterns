@@ -17,7 +17,10 @@ namespace ChainOfResponsibilityPattern
             // ChainOfResponsibility.Program.Run();
 
             // Run the publish subscribe pattern
-            PublishSubscribe.Program.Run();
+            // PublishSubscribe.Program.Run();
+
+            // Run the selected observables pattern
+            // SelectedObservable.Program.Run();
 
             Console.ReadLine();
         }

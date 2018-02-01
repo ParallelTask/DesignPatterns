@@ -63,6 +63,14 @@
     <Compile Include="PublishSubscribe\Publisher.cs" />
     <Compile Include="PublishSubscribe\SubscriberTwo.cs" />
     <Compile Include="PublishSubscribe\SubscriberOne.cs" />
+    <Compile Include="SelectedObservable\IObserver.cs" />
+    <Compile Include="SelectedObservable\ISubject.cs" />
+    <Compile Include="SelectedObservable\ObserverOne.cs" />
+    <Compile Include="SelectedObservable\ObserversConstant.cs" />
+    <Compile Include="SelectedObservable\ObserverThree.cs" />
+    <Compile Include="SelectedObservable\ObserverTwo.cs" />
+    <Compile Include="SelectedObservable\Program.cs" />
+    <Compile Include="SelectedObservable\Subject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
