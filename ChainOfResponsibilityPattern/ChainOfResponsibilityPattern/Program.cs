@@ -29,7 +29,13 @@ namespace ChainOfResponsibilityPattern
             // Builder.Program.Run();
 
             // Run the prototype pattern
-            Prototype.Program.Run();
+            // Prototype.Program.Run();
+
+            // Run the singleton pattern
+            // Singleton.Program.Run();
+
+            // Run the single instance pattern
+            // SingleInstance.Program.Run();
 
             Console.ReadLine();
         }

@@ -83,6 +83,12 @@
     <Compile Include="SelectedObservable\ObserverTwo.cs" />
     <Compile Include="SelectedObservable\Program.cs" />
     <Compile Include="SelectedObservable\Subject.cs" />
+    <Compile Include="SingleInstance\ISqlProvider.cs" />
+    <Compile Include="SingleInstance\Program.cs" />
+    <Compile Include="SingleInstance\SqlProvider.cs" />
+    <Compile Include="Singleton\ISqlProvider.cs" />
+    <Compile Include="Singleton\Program.cs" />
+    <Compile Include="Singleton\SqlProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
