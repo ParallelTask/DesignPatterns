@@ -28,6 +28,9 @@ namespace ChainOfResponsibilityPattern
             // Run the builder pattern
             // Builder.Program.Run();
 
+            // Run the prototype pattern
+            Prototype.Program.Run();
+
             Console.ReadLine();
         }
     }

@@ -56,7 +56,7 @@ namespace ChainOfResponsibilityPattern.Builder
 
         public ICharacter Build()
         {
-            return new Character() { HairColor = _hairColor, HasArrow = _hasArrow, HasGun = _hasGun, HasShoes = _hasShoes, ShirtColor = _shirtColor };
+            return new Character(_hasShoes, _hairColor, _shirtColor, _hasGun, _hasArrow);
         }
     }
 }

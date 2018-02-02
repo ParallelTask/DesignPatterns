@@ -63,6 +63,10 @@
     <Compile Include="Observable\Subject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prototype\Character.cs" />
+    <Compile Include="Prototype\ICharacter.cs" />
+    <Compile Include="Prototype\IClonable.cs" />
+    <Compile Include="Prototype\Program.cs" />
     <Compile Include="PublishSubscribe\Broker.cs" />
     <Compile Include="PublishSubscribe\IBroker.cs" />
     <Compile Include="PublishSubscribe\IPublisher.cs" />

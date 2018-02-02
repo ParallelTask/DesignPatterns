@@ -13,6 +13,17 @@ namespace ChainOfResponsibilityPattern.Builder
         public string ShirtColor { get; set; }
         public bool HasGun { get; set; }
         public bool HasArrow { get; set; }
+
+        // Must have a Constructor that have all properties injected to it
+        public Character(bool hasShoes, string hairColor, string shirtColor, bool hasGun, bool hasArrow)
+        {
+            HasShoes = hasShoes;
+            HairColor = hairColor;
+            ShirtColor = shirtColor;
+            HasGun = hasGun;
+            HasArrow = hasArrow;
+        }
+
         public void Print()
         {
             Console.WriteLine($"HasShoes: {HasShoes}, HairColor: {HairColor}, ShirtColor: {ShirtColor}, HasGun: {HasGun}, HasArrow: {HasArrow}");
