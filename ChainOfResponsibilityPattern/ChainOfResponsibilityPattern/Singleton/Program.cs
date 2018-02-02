@@ -8,7 +8,7 @@ namespace ChainOfResponsibilityPattern.Singleton
 {
     // You should use When you need only one resource (a database connection, a socket connection …)
     // You shouldn’t use singleton for sharing data between different objects since it creates tight coupling!
-    // Refer: http://butunclebob.com/ArticleS.UncleBob.SingletonVsJustCreateOne
+    // Refer: https://stackoverflow.com/questions/137975/what-is-so-bad-about-singletons
     public class Program
     {
         public static void Run()

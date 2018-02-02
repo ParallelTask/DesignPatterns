@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChainOfResponsibilityPattern.SingleInstance
 {
+    // Refer: http://butunclebob.com/ArticleS.UncleBob.SingletonVsJustCreateOne
     public class Program
     {
         public static void Run()
