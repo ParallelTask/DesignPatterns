@@ -42,7 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builder\Character.cs" />
+    <Compile Include="Builder\ICharacter.cs" />
+    <Compile Include="Builder\ICharacterBuilder.cs" />
     <Compile Include="Builder\Program.cs" />
+    <Compile Include="Builder\CharacterBuilder.cs" />
     <Compile Include="ChainOfResponsibility\IReceiver.cs" />
     <Compile Include="ChainOfResponsibility\Program.cs" />
     <Compile Include="ChainOfResponsibility\ReceiverThree.cs" />

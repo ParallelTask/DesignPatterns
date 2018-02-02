@@ -25,6 +25,9 @@ namespace ChainOfResponsibilityPattern
             // Run the fluent interface pattern
             // FluentInterface.Program.Run();
 
+            // Run the builder pattern
+            // Builder.Program.Run();
+
             Console.ReadLine();
         }
     }
