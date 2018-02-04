@@ -42,6 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factory\DBFactory.cs" />
+    <Compile Include="Factory\IDBConnector.cs" />
+    <Compile Include="Factory\IDBFactory.cs" />
+    <Compile Include="Factory\OracleConnector.cs" />
+    <Compile Include="Factory\Program.cs" />
     <Compile Include="Builder\Character.cs" />
     <Compile Include="Builder\ICharacter.cs" />
     <Compile Include="Builder\ICharacterBuilder.cs" />
@@ -52,6 +57,7 @@
     <Compile Include="ChainOfResponsibility\ReceiverThree.cs" />
     <Compile Include="ChainOfResponsibility\ReceiverTwo.cs" />
     <Compile Include="ChainOfResponsibility\ReceiverOne.cs" />
+    <Compile Include="Factory\SqlConnector.cs" />
     <Compile Include="FluentInterface\ICustomer.cs" />
     <Compile Include="FluentInterface\Customer.cs" />
     <Compile Include="FluentInterface\Program.cs" />

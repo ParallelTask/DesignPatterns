@@ -37,6 +37,9 @@ namespace ChainOfResponsibilityPattern
             // Run the single instance pattern
             // SingleInstance.Program.Run();
 
+            // Run the factory pattern
+            // Factory.Program.Run();
+
             Console.ReadLine();
         }
     }
