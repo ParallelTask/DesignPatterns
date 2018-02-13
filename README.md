@@ -1,2 +1,2 @@
 # DesignPatterns
-Sample examples demonstration of design patterns
+Sample demonstrated examples on design patterns
