@@ -42,6 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Decorator\BasePizza.cs" />
+    <Compile Include="Decorator\ExtraCheese.cs" />
+    <Compile Include="Decorator\ExtraChicken.cs" />
+    <Compile Include="Decorator\IPizzaProvider.cs" />
+    <Compile Include="Decorator\PizzaDecorator.cs" />
+    <Compile Include="Decorator\Program.cs" />
     <Compile Include="Factory\DBFactory.cs" />
     <Compile Include="Factory\IDBConnector.cs" />
     <Compile Include="Factory\IDBFactory.cs" />

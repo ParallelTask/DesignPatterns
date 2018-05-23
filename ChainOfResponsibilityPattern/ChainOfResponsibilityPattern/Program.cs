@@ -40,6 +40,9 @@ namespace ChainOfResponsibilityPattern
             // Run the factory pattern
             // Factory.Program.Run();
 
+            // Run the decorator pattern
+            Decorator.Program.Run();
+
             Console.ReadLine();
         }
     }
